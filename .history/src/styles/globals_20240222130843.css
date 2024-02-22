@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --Purple: #3B3170;
+  --DarkPurple: #271F4F;
+  --LightPurple: #9183BA;
+  --Dark: #171233;
+  --White: #FFFFFF;
+  --Yellow: #F5DF60;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --Purple: #3B3170;
+    --DarkPurple: #271F4F;
+    --LightPurple: #9183BA;
+    --Dark: #171233;
+    --White: #FFFFFF;
+    --Yellow: #F5DF60;
+  }
+}
+
+body {
+  background: rgb(var(--Dark));
+}
+
+html {
+  font-family: "Josefin Slab", serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
