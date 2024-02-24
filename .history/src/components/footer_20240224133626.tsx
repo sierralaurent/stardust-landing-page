@@ -1,0 +1,37 @@
+import Image from 'next/image'
+import Link from 'next/link'
+
+export default function Footer() {
+    return(
+        <>
+        <footer className="footer footer-center p-5 bg-LightPurple text-primary-content">
+            <aside className={'flex flex-col gap-5'}>
+                <div>
+                <Image
+                src='assets/wordmark-dark.svg'
+                width={175}
+                height={175}
+                alt='logo'
+                />
+                </div> 
+                <div className={'flex flex-col'}>
+                    <p className={'text-lg text-white'}>Sierra Laurent</p>
+                    <p className={'font-bold text-lg text-white'}>Copyright © 2024 – All Rights Reserved</p>
+                </div>
+            </aside> 
+            <nav>
+                <div className="flex flex-col items-center gap-4 ">
+                <p className={'text-md text-white'}>See Project</p>
+                <Link href="https://github.com/raxron/StarDust"><Image
+                className={'hover:scale-110 transition-transform'}
+                src='assets/githubLogo.svg'
+                width={50}
+                height={50}
+                alt='github logo'
+                /></Link>
+                </div>
+            </nav>
+        </footer>
+        </>
+    )
+}
