@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className={'flex flex-col items-center gap-8'}>
         <h1>Pricing card Section</h1>
-        <div className={'flex flex-row gap-20'}>
+        <div className={'flex flex-row'}>
           <Card01 />
           <Card02 />
           <Card03 />

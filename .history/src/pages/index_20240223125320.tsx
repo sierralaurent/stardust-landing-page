@@ -6,8 +6,6 @@ import Card02 from '@/components/cards/card02'
 import Card03 from '@/components/cards/card03'
 import Heart from '@/components/spline/heart'
 
-
-
 export default function Home() {
   return (
     <>
@@ -16,11 +14,10 @@ export default function Home() {
       <div className={'flex flex-col items-center gap-8'}>
         <h1>Hero Section</h1>
         <Heart />
-
       </div>
       <div className={'flex flex-col items-center gap-8'}>
         <h1>Pricing card Section</h1>
-        <div className={'flex flex-row gap-20'}>
+        <div className={'flex flex-row'}>
           <Card01 />
           <Card02 />
           <Card03 />

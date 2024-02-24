@@ -15,7 +15,7 @@ export default function Card02() {
                     </div>
                 <h3 className={'text-3xl'}>$15</h3>
                 <div className="card-actions ">
-                <button className="text-Dark hover:scale-110 transition-transform btn bg-Yellow hover:bg-Yellow">Get Now!</button>
+                <button className="btn btn-primary bg-Yellow hover:bg-Yellow">Get Now!</button>
                 </div>
             </div>
             </div>
