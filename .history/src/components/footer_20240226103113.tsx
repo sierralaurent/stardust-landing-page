@@ -17,17 +17,17 @@ export default function Footer() {
                 <div className={'flex flex-col'}>
                     <p className={'text-lg text-white'}>Sierra Laurent</p>
                     <p className={'font-bold text-lg text-white'}>Copyright © 2024 – All Rights Reserved</p>
-                    <p className={'text-white'}>See Project</p>
+                    <p>See Project</p>
                 </div>
                 <div className="flex flex-row items-center gap-4 ">
-                    <Link href="https://github.com/raxron/StarDust" rel="noopener noreferrer" target="_blank"><Image
+                    <Link href="https://github.com/raxron/StarDust"><Image
                     className={'hover:scale-110 transition-transform'}
                     src='assets/githubLogo.svg'
                     width={50}
                     height={50}
                     alt='github logo'
                     /></Link>
-                    <Link href="https://stardust-horoscope.vercel.app/" rel="noopener noreferrer" target="_blank"><Image
+                    <Link href="https://stardust-horoscope.vercel.app/"><Image
                     className={'hover:scale-110 transition-transform'}
                     src='assets/web-icon.svg'
                     width={50}
